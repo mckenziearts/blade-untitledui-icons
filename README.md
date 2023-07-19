@@ -1,5 +1,9 @@
 # Blade Untitled UI Icons
 
+<p align="center">
+    <img src="art/screenshot.jpg" width="1600" title="Untitled UI Icons 1,000+ icons">
+</p>
+
 <a href="https://github.com/mckenziearts/blade-untitledui-icons/actions?query=workflow%3ATests">
     <img src="https://github.com/blade-ui-kit/blade-untitledui-icons/workflows/Tests/badge.svg" alt="Tests">
 </a>
@@ -10,9 +14,9 @@
     <img src="https://img.shields.io/packagist/dt/mckenziearts/blade-untitledui-icons" alt="Total Downloads">
 </a>
 
-A package to easily make use the free version of [Untitled UI Icons](https://www.untitledui.com/icons) in your Laravel Blade views.
+A package to easily make use the free line version of [Untitled UI Icons](https://www.untitledui.com/icons) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](resources/svg) or preview them at [Untitledui.com](https://www.untitledui.com/icons).
+For a full list of available icons see [the SVG directory](resources/svg) or preview them at [Untitledui.com](https://www.untitledui.com/icons). Untitled UI icons are originally developed by [Jordan Hughes](https://twitter.com/jordanphughes).
 
 ## Requirements
 
