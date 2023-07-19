@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
+use Mckenziearts\BladeUntitledUIIcons\BladeUntitledUIIconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
@@ -13,7 +13,7 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_compiles_a_single_anonymous_component()
     {
-        $result = svg('heroicon-o-bell')->toHtml();
+        $result = svg('untitledui-bell')->toHtml();
 
         // Note: the empty class here seems to be a Blade components bug.
         $expected = <<<'SVG'
@@ -28,7 +28,7 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_can_add_classes_to_icons()
     {
-        $result = svg('heroicon-o-bell', 'w-6 h-6 text-gray-500')->toHtml();
+        $result = svg('untitledui-bell', 'w-6 h-6 text-gray-500')->toHtml();
 
         $expected = <<<'SVG'
             <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -42,7 +42,7 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_can_add_styles_to_icons()
     {
-        $result = svg('heroicon-o-bell', ['style' => 'color: #555'])->toHtml();
+        $result = svg('untitledui-bell', ['style' => 'color: #555'])->toHtml();
 
         $expected = <<<'SVG'
             <svg style="color: #555" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -53,11 +53,11 @@ class CompilesIconsTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [
             BladeIconsServiceProvider::class,
-            BladeHeroiconsServiceProvider::class,
+            BladeUntitledUIIconsServiceProvider::class,
         ];
     }
 }

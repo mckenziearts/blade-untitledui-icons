@@ -1,16 +1,23 @@
 {
-    "name": "blade-organization/blade-heroicons",
-    "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
-    "keywords": ["Blade", "Heroicons", "Laravel"],
-    "homepage": "https://github.com/blade-organization/blade-heroicons",
+    "name": "mckenziearts/blade-untitledui-icons",
+    "description": "A package to easily make use of UntitledUI icons in your Laravel Blade views.",
+    "keywords": ["Blade", "Untitled UI", "Laravel"],
+    "homepage": "https://github.com/mckenziearts/blade-untitledui-icons",
     "license": "MIT",
+    "funding": [
+        {
+            "type": "custom",
+            "url": "https://laravel.cm/sponsors"
+        }
+    ],
     "authors": [
         {
-            "name": "Blade Developer"
+            "name": "Arthur Monney",
+            "homepage": "https://arthurmonney.me"
         }
     ],
     "require": {
-        "php": "~8.1.0|~8.2.0",
+        "php": "^8.1",
         "blade-ui-kit/blade-icons": "^1.4",
         "illuminate/support": "^9.0|^10.0"
     },
@@ -20,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "Mckenziearts\\BladeUntitledUIIcons\\": "src"
         }
     },
     "autoload-dev": {
@@ -31,7 +38,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                "Mckenziearts\\BladeUntitledUIIcons\\BladeUntitledUIIconsServiceProvider"
             ]
         }
     },

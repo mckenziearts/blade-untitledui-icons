@@ -20,9 +20,9 @@
 > 
 > Then, make sure [the implementation](./src) is correct, that you set up [icon generation](https://github.com/blade-ui-kit/blade-icons#generating-icons) and that [your tests](./tests) pass. And remove this quote block from your readme. When you've published your package on Packagist, make sure to send it in to [the Blade Icons package list](https://github.com/blade-ui-kit/blade-icons#icon-packages).
 
-A package to easily make use of [Heroicons](https://github.com/refactoringui/heroicons) in your Laravel Blade views.
+A package to easily make use the free version of [Untitled UI Icons](https://www.untitledui.com/icons) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](resources/svg) or preview them at [heroicons.com](https://heroicons.com/).
+For a full list of available icons see [the SVG directory](resources/svg) or preview them at [Untitledui.com](https://www.untitledui.com/icons).
 
 ## Requirements
 
@@ -32,7 +32,7 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 ## Installation
 
 ```bash
-composer require blade-organization/blade-heroicons
+composer require mckenziearts/blade-untitledui-icons
 ```
 
 ## Updating
@@ -41,14 +41,14 @@ Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 
 ## Blade Icons
 
-Blade Heroicons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
+Blade UntitledUI Icons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
 
 ## Configuration
 
-Blade Heroicons also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-heroicons.php` config file:
+Blade UntitledUI also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-heroicons.php` config file:
 
 ```bash
-php artisan vendor:publish --tag=blade-heroicons-config
+php artisan vendor:publish --tag=blade-untitledui-icons-config
 ```
 
 ## Usage
