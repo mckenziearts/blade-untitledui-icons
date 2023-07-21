@@ -2,6 +2,9 @@ name: Tests
 
 on:
   push:
+    branches:
+      - main
+      - '*.x'
   pull_request:
   schedule:
     - cron: '0 0 * * *'
@@ -31,7 +34,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer require "laravel/framework:${{ matrix.laravel }}" --prefer-dist --no-interaction --no-update
+          composer require "illuminate/contracts=^${{ matrix.laravel }}" --prefer-dist --no-interaction --no-update
           composer update --prefer-dist --no-interaction --no-progress
 
       - name: Execute tests
