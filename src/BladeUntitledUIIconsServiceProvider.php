@@ -12,10 +12,13 @@ final class BladeUntitledUIIconsServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory): void {
-            $factory->add('untitled-ui', [
-                'path' => __DIR__ . '/../resources/svg',
-                'prefix' => 'untitled-ui',
-            ]);
+            $factory->add(
+                set: 'untitledui',
+                options: [
+                    'path' => __DIR__ . '/../resources/svg',
+                    'prefix' => 'untitledui',
+                ]
+            );
         });
     }
 

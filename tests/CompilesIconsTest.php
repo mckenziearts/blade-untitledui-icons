@@ -13,7 +13,7 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_compiles_a_single_anonymous_component()
     {
-        $result = svg('untitled-ui-activity')->toHtml();
+        $result = svg('untitledui-activity')->toHtml();
 
         $expected = <<<'SVG'
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_can_add_classes_to_icons()
     {
-        $result = svg('untitled-ui-activity', 'w-6 h-6 text-gray-500')->toHtml();
+        $result = svg('untitledui-activity', 'w-6 h-6 text-gray-500')->toHtml();
 
         $expected = <<<'SVG'
             <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ class CompilesIconsTest extends TestCase
     /** @test */
     public function it_can_add_styles_to_icons()
     {
-        $result = svg('untitled-ui-activity', ['style' => 'color: #555'])->toHtml();
+        $result = svg('untitledui-activity', ['style' => 'color: #555'])->toHtml();
 
         $expected = <<<'SVG'
             <svg style="color: #555" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
