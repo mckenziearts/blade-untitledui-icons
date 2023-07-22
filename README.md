@@ -17,7 +17,7 @@
 </p>
 
 A package to easily make use the free line version of [Untitled UI Icons](https://www.untitledui.com/icons) in your Laravel Blade views.
-For a full list of available icons see [the SVG directory](resources/svg) or preview them at [Untitledui.com](https://www.untitledui.com/icons). Untitled UI icons are originally developed by [Jordan Hughes](https://twitter.com/jordanphughes).
+For a full list of available icons see [the SVG directory](resources/svg) or preview them at [Untitledui.com](https://www.untitledui.com/icons) or on [Figma](https://www.figma.com/community/file/1114001199549197320). Untitled UI icons are originally developed by [Jordan Hughes](https://twitter.com/jordanphughes).
 
 ## Requirements
 
