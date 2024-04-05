@@ -4,12 +4,6 @@
     "keywords": ["Blade", "Untitled UI", "Laravel"],
     "homepage": "https://github.com/mckenziearts/blade-untitledui-icons",
     "license": "MIT",
-    "funding": [
-        {
-            "type": "custom",
-            "url": "https://laravel.cm/sponsors"
-        }
-    ],
     "authors": [
         {
             "name": "Arthur Monney",
@@ -18,12 +12,12 @@
     ],
     "require": {
         "php": "^8.1",
-        "blade-ui-kit/blade-icons": "^1.5",
-        "illuminate/support": "^9.0|^10.0"
+        "blade-ui-kit/blade-icons": "^1.6",
+        "illuminate/support": "^9.0|^10.0|^11.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^7.0|^8.0",
-        "phpunit/phpunit": "^9.0"
+        "orchestra/testbench": "^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.0|^10.5|^11.0"
     },
     "autoload": {
         "psr-4": {
